@@ -7,6 +7,7 @@
 .text
   jal billnyetheme
   
-  jal Exit
+  li $v0, 10
+  syscall
 
 .include "billnyetheme.asm"
